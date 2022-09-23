@@ -358,7 +358,6 @@ const schema = defineSchema({
   ],
 });
 
-const branch = "main";
 const apiURL =
   process.env.NODE_ENV == "development"
     ? "http://localhost:4001/graphql"
