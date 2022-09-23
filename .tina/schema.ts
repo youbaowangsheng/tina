@@ -6,6 +6,11 @@ import { testimonialBlockSchema } from "../components/blocks/testimonial";
 import { iconSchema } from "../components/util/icon";
 
 const schema = defineSchema({
+  config:{
+      token:'7896f4ae3ba6c99d6501ec8c296bf26012444ce3',
+      clientId:'006784a7-5d38-4575-9096-56d922524083',
+      branch,
+    },
   collections: [
     {
       label: "Blog Posts",
