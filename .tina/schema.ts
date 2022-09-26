@@ -8,13 +8,13 @@ import { iconSchema } from "../components/util/icon";
 const branch =
   process.env.NEXT_PUBLIC_TINA_BRANCH ||
   process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF ||
-  process.env.HEAD
-
+  process.env.HEAD||
+  ''
 const schema = defineSchema({
   config:{
-      token:"7896f4ae3ba6c99d6501ec8c296bf26012444ce3",
-      clientId:"006784a7-5d38-4575-9096-56d922524083",
-      branch:"main",
+      token:'56e7f763e20cd58681f8adaa323b7f0c3df0fc3a',
+      clientId:'006784a7-5d38-4575-9096-56d922524083',
+      branch,
     },
   collections: [
     {
